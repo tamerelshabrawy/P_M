@@ -512,7 +512,7 @@
 #X connect 2 1 5 0;
 #X connect 3 0 4 0;
 #X restore 1750 1360 pd scene_32;
-#X msg 1530 120 \; waterRun-r 0 \; waterRun 0 \; 1003master-r -100 \; 1003master -100 \; 1003run 0 \; HarpToggle-r 0 \; HarpToggle 0 \; HarpDelayWet-r 0 \; HarpDelayWet 0 \; StreetAuraToggle_idlework-r 0 \; StreetAuraToggle_idlework 0 \; StreetAuraLevel_idlework-r -100 \; StreetAuraLevel_idlework -100 \; auraAmt_idlework-r 0 \; auraAmt_idlework 0;
+#X msg 1530 120 \; waterRun-r 0 \; waterRun 0 \; 1003master-r -100 \; 1003master -100 \; 1003run 0 \; HarpToggle-r 0 \; HarpToggle 0 \; HarpDelayWet-r 0 \; HarpDelayWet 0 \; StreetAuraToggle_idlework-r 0 \; StreetAuraToggle_idlework 0 \; StreetAuraLevel_idlework-r -100 \; StreetAuraLevel_idlework -100 \; auraAmt_idlework-r 0 \; auraAmt_idlework 0 \; chmToggle-r 0 \; chmToggle 0;
 #X obj 1220 120 alexandria_scene_morph_engine;
 #N canvas 120 80 1400 900 scene_33 0;
 #X text 20 16 Scene 33;
