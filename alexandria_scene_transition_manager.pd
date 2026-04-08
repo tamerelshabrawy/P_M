@@ -62,7 +62,7 @@
 #X obj 322 698 v \$0-in-ms;
 #X msg 322 728 1 \$1;
 #X obj 322 758 s sceneMasterFade;
-#X connect 3 0 4 0;
+#X text 28 78 DEPRECATED - use alexandria_zone_scene_player.pd instead;
 #X connect 4 0 5 0;
 #X connect 5 0 6 0;
 #X connect 5 1 7 0;
