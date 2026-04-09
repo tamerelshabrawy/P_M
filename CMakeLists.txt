@@ -67,7 +67,6 @@ target_link_options(
     PRIVATE
     -sMODULARIZE=1
     -sEXPORT_NAME='Pd4WebModule'
-    -sINITIAL_MEMORY=8192MB
     -sEXPORT_ES6=${PD4WEB_AS_ES6}
     -sUSE_PTHREADS=1
     -sPTHREAD_POOL_SIZE=4
@@ -152,7 +151,4 @@ set_target_properties(pd4web PROPERTIES LINK_FLAGS "${EMCC_LINK_FLAGS}
 	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/.tmp@/Libs/\"
 	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Audios@/Audios/\"
 	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Extras@/Extras/\"
-	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Libs@Libs\"
-	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Audios@Audios\"
-	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Extras@Extras\"")
-
+	--preload-file \"${CMAKE_CURRENT_SOURCE_DIR}/Pd4Web/Gui@/Gui/")
