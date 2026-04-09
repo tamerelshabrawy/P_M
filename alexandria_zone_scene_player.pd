@@ -2,7 +2,7 @@
 #X obj 32 48 loadbang;
 #X msg 32 68 1;
 #X obj 32 88 v \$0-last-family;
-#X obj 32 98 inlet;
+#X obj 32 98 r alex_target_scene;
 #X obj 32 113 t f f;
 #X obj 182 98 v \$0-next-scene;
 #X obj 32 128 change;
